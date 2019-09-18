@@ -7,7 +7,8 @@
         <div class="nav-menu">
             <ul class="nav-menu-list">
                 <li class="nav-list-item"><a href="/">About me</a></li>
-                <li class="nav-list-item"><a target="_blank" href="https://github.com/EpistemicPolymath">GitHub</a></li>  
+                <li class="nav-list-item"><a target="_blank" href="https://github.com/EpistemicPolymath">GitHub</a></li>
+                <li class="nav-list-item"><a target="_blank" href="https://twitch.tv/EpistemicPolymath">Twitch</a></li>
             </ul>
         </div>
     </section>
@@ -54,4 +55,8 @@ export default {
               background: #333
           &:first-of-type
               border-bottom: 5px solid #222
+          a 
+                text-decoration: none
+                color: white
+                
 </style>
