@@ -1,7 +1,7 @@
 <template>
     <section class="nav">
         <div class="nav-logo">
-            <img src="../assets/polylogo.png" alt="logo" height="100px" width="100px">
+            <img src="../assets/polylogo.png" alt="logo" height="160px" width="160px">
             <p>EpistemicPolymath</p>
         </div>
         <div class="nav-menu">

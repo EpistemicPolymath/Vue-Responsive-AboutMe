@@ -1,7 +1,7 @@
 <template>
   <div class="about-card">
     <div class="card-title">
-      <img src="../assets/polylogo.png" alt="avatar" class="avatar" width="75px" height="75px">
+      <img src="../assets/polylogo-neck.png" alt="avatar" class="avatar" width="75px" height="75px">
       <div class="title-text-content">
         <p>About me</p>
         <h2>Jenn Tillman</h2>
