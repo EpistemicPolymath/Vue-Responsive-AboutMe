@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <DesktopNav id="desktop-nav"/>
-    <MobileNav id="mobile-nav"/>
+    <DesktopNav id="desktop-nav" />
+    <MobileNav id="mobile-nav" />
     <div class="view-container">
         <router-view/>
     </div>
@@ -10,7 +10,7 @@
 
 <script>
 import DesktopNav from '@/components/DesktopNav'
-import MobileNav from '@/components/DesktopNav'
+import MobileNav from '@/components/MobileNav'
 
 export default {
    components: {
@@ -20,9 +20,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-</style>
-
 <style lang="sass" scoped>
   .view-container
       width: 79w
@@ -30,4 +27,16 @@ export default {
       margin-left: 20vw
       box-sizing: border-box
       min-height: 100vh
+
+  #mobile-nav
+    display: none
+
+  @media screen and (max-width: 1096px)
+    .view-container
+      width: 100%
+      margin-left: 0
+    #desktop-nav
+      display: none
+    #mobile-nav
+      display: flex
 </style>
