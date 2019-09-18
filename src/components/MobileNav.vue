@@ -6,8 +6,8 @@
         </div>
         <div class="nav-menu">
             <ul class="nav-menu-list">
-                <li class="nav-list-item">About me</li>
-                <li class="nav-list-item">GitHub</li>
+                <li class="nav-list-item"><a href="/">About me</a></li>
+                <li class="nav-list-item"><a target="_blank" href="https://github.com/EpistemicPolymath">GitHub</a></li>  
             </ul>
         </div>
     </section>
